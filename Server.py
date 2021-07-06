@@ -27,6 +27,7 @@ while True:
 
 	if data != b'end' and  data != b'':
 		print('Connected to ', addr)
+		print(data)
 		
 		file_data = data
 		file.write(str(file_data) + '\n')
