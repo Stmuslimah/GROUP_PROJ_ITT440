@@ -103,10 +103,11 @@ while True:
 
 
 file.write(f'{detail,area,tracking_num,total}\n')
+
 file.close()
 
-fileOpen = open('Details.txt','a')
-r = fileOpen.read()
-s.send(r)
+file = open('Details.txt','r')
+r = file.read()
+s.send(str.encode(r))
 
 s.close()
