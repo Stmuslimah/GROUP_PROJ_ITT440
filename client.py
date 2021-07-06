@@ -91,7 +91,7 @@ while True:
     
     count = 000;
     if count >= 0:
-         x = 000;
+         x = 100;
     
     x = x + 1;
     combine_code = area + "MY";
