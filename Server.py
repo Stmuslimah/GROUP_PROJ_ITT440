@@ -18,7 +18,7 @@ while True:
 
 	file_data = data
 	file.write(str(file_data) + '\n')
-	break
+
 
 
 file.close()
